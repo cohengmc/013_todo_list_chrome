@@ -1,13 +1,14 @@
 body {
-    display: flex;
-    flex-direction: column;
     background-color: #0D1821;
+    min-width: 250px;
 }
 
 #text-input {
     border: 2px solid #B4CDED;
     border-radius: 2px;
     padding: .3em;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #save-btn {
