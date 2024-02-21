@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #0D1821;
+}
+
+#text-input {
+    border: 2px solid #B4CDED;
+    border-radius: 2px;
+    padding: .3em;
+}
+
+#save-btn {
+    background-color: #B4CDED;
+    border: none;
+    max-width: 10em;
+    margin-top: .5em;
+    padding: .5em 1em;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.trash {
+    width: 1em;
+    vertical-align: middle;
+    background-color: #D17B88;
+    padding: .1em;
+    border-radius: 50%;
+    margin-left: 1em;
+}
+
+li {
+    color: #B4CDED;
+    text-transform: capitalize;
+}
