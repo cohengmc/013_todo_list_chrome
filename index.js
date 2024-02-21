@@ -26,6 +26,7 @@ function remove(removeMe) {
     let clean = removeMe + ""
     clean = removeMe.substr(3, clean.length)
     items.splice(clean, 1)
+    console.log(removeMe);
     render()
 }
 
